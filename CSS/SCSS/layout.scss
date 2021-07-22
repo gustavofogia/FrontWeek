@@ -165,16 +165,6 @@
     animation: linha1 4s linear infinite alternate;
 }
 
-#bg-heroline2{
-    //stroke-dasharray: 50 100 !important;
-   // animation: linha2 1s ease infinite alternate;
-}
-
-#bg-heroline3{
-    //stroke-dasharray: 10 100 !important;
-    //animation: linha3 2s ease infinite alternate;
-}
-
 @keyframes linha1{
     0%{
         stroke-dasharray: 0 100;
