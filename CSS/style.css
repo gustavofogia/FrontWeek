@@ -113,8 +113,25 @@ body {
 }
 
 .container {
-  max-width: 1128;
+  max-width: 1128px;
   margin: 0 auto;
-  border: 1px solid green;
+  padding: 24px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.hero {
+  height: 90vh;
 }
 /*# sourceMappingURL=style.css.map */
